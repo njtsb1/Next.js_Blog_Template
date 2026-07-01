@@ -32,6 +32,8 @@ You will also learn how to make your blog dynamic and integrate it with a cloud 
 - Validate color contrast and test with screen readers.
 - Implement pagination or filters (client-side) for many posts.
 
+![Screenshot](/img/blog.png)
+
 [LICENSE](/LICENSE)
 
 See [original repository](https://github.com/digitalinnovationone/trilha-react-desafio-5)
