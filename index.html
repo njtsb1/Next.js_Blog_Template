@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal Blog — Demo</title>
+  <meta name="description" content="A simple accessible responsive personal blog demo using HTML5, CSS3 and JS." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="#" aria-label="Home">
+        <svg width="48" height="48" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="10" fill="currentColor" />
+          <text x="12" y="16" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Blog</text>
+        </svg>
+        <span class="site-title" id="site-title">Demo Blog</span>
+      </a>
+
+      <div class="controls" role="toolbar" aria-label="Site controls">
+        <div class="control">
+          <label for="lang-select" class="visually-hidden">Language</label>
+          <select id="lang-select" aria-label="Select language">
+            <option value="en">English (EN)</option>
+            <option value="pt-BR">Português (PT-BR)</option>
+            <option value="es">Español (ES)</option>
+          </select>
+        </div>
+
+        <button id="theme-toggle" class="theme-toggle" aria-pressed="true" aria-label="Toggle dark mode">
+          <!-- Moon icon (dark) and Sun icon (light) toggled via CSS/JS -->
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="currentColor"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+            <path d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zM1 13h3v-2H1v2zm10 9h2v-3h-2v3zM17.24 19.16l1.79 1.79 1.79-1.79-1.79-1.79-1.79 1.79zM20 11v2h3v-2h-3zM12 4a8 8 0 100 16 8 8 0 000-16z" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Personal Blog</h1>
+      <p id="hero-subtitle">A small demo to practice HTML5, CSS3 and JS — semantic, accessible and responsive.</p>
+    </section>
+
+    <section class="posts" aria-labelledby="posts-title">
+      <h2 id="posts-title">Latest posts</h2>
+
+      <ul class="post-list" id="post-list">
+        <!-- Posts injected by JS for multilanguage demo -->
+      </ul>
+    </section>
+
+    <aside class="sidebar" role="complementary" aria-labelledby="about-title">
+      <h3 id="about-title">About</h3>
+      <p id="about-text">This is a small static blog demo focused on accessibility and responsive layout.</p>
+      <nav aria-label="Social links">
+        <ul class="social-list">
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+          <li><a href="#" aria-label="GitHub">GitHub</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p id="footer-text">© <span id="year"></span> Demo Blog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
