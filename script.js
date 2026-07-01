@@ -9,12 +9,12 @@ const translations = {
     footerText: "© {year} Demo Blog. All rights reserved.",
     posts: [
       {
-        date: "Sep 14, 2021",
+        date: "Jun 14, 2026",
         title: "Mental models for designers — PART 2",
         excerpt: "Consider that for a moment: everything we see around us is assumed to have had a cause and is contingent upon."
       },
       {
-        date: "Jun 2, 2021",
+        date: "Jul 2, 2026",
         title: "Mental models for designers",
         excerpt: "Consider that for a moment: everything we see around us is assumed to have had a cause and is contingent upon."
       }
@@ -30,12 +30,12 @@ const translations = {
     footerText: "© {year} Blog Demo. Todos os direitos reservados.",
     posts: [
       {
-        date: "14 Set, 2021",
+        date: "14 Set, 2026",
         title: "Modelos mentais para designers — PARTE 2",
         excerpt: "Considere por um momento: tudo ao nosso redor é assumido como tendo uma causa e sendo contingente."
       },
       {
-        date: "02 Jun, 2021",
+        date: "02 Jul, 2026",
         title: "Modelos mentais para designers",
         excerpt: "Considere por um momento: tudo ao nosso redor é assumido como tendo uma causa e sendo contingente."
       }
@@ -51,12 +51,12 @@ const translations = {
     footerText: "© {year} Blog Demo. Todos los derechos reservados.",
     posts: [
       {
-        date: "14 Sep, 2021",
+        date: "14 Jun, 2026",
         title: "Modelos mentales para diseñadores — PARTE 2",
         excerpt: "Considere por un momento: todo lo que vemos a nuestro alrededor se supone que tuvo una causa y es contingente."
       },
       {
-        date: "02 Jun, 2021",
+        date: "02 Jul, 2026",
         title: "Modelos mentales para diseñadores",
         excerpt: "Considere por un momento: todo lo que vemos a nuestro alrededor se supone que tuvo una causa y es contingente."
       }
