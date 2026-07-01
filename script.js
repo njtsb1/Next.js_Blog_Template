@@ -30,7 +30,7 @@ const translations = {
     footerText: "© {year} Blog Demo. Todos os direitos reservados.",
     posts: [
       {
-        date: "14 Set, 2026",
+        date: "14 Jun, 2026",
         title: "Modelos mentais para designers — PARTE 2",
         excerpt: "Considere por um momento: tudo ao nosso redor é assumido como tendo uma causa e sendo contingente."
       },
