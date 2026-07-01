@@ -1,15 +1,15 @@
 # Creating Your Personal Blog with Next.js
 
 Project developed at Bootcamp React Developer Training with guidance from specialist [Pablo Henrique](https://github.com/pablohdev "Pablo Henrique").
-In this challenge, you will use Next.js to build your personal blog! Next.js is a React framework that brings together various features—such as hybrid and static content rendering, TypeScript support, a routing system, feature packages, and a wide range of plugins and examples—to accelerate development by providing a complete structure for your project.
+In this challenge, you will use Next.js to build your personal blog! Next.js is a React framework that brings together various features - such as hybrid and static content rendering, TypeScript support, a routing system, feature packages, and a wide range of plugins and examples - to accelerate development by providing a complete structure for your project.
 Mastering Next.js is a great way to stand out in the front-end market.
 You will also learn how to make your blog dynamic and integrate it with a cloud service.
 
 ## Technologies used
 
-- **HTML** — semantic markup (header, main, section, aside, footer).
-- **CSS** — styles with CSS variables, dark (default) and light themes.
-- **JavaScript** — logic for switching themes, changing languages, and rendering posts; persists preferences in `localStorage`.
+- **HTML** - semantic markup (header, main, section, aside, footer).
+- **CSS** - styles with CSS variables, dark (default) and light themes.
+- **JavaScript** - logic for switching themes, changing languages, and rendering posts; persists preferences in `localStorage`.
 
 ## Features
 
