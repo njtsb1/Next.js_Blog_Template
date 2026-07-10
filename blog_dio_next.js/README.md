@@ -1,3 +1,5 @@
+# Next.js Blog Template
+
 ![Netlify Next.js Blog Template designed by Bejamas](github-banner.svg)
 
 [![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nextjs-blog-theme)
@@ -19,7 +21,7 @@ A customizable blog starter using:
 
 [Click here to watch the template walkthrough!](https://www.youtube.com/watch?v=63QZHs259dY)
 
-## Table of Contents:
+## Table of Contents
 
 - [Getting Started](#getting-started)
   - [Setting Up Locally](#setting-up-locally)
@@ -66,6 +68,9 @@ Through the [setup wizard](https://nextjs-wizard.netlify.app/), you can create y
 The config is based on environment variables to make it easy to integrate with any Jamstack platform, like Netlify.
 
 Here are the variables you can edit:
+
+```bash
+
 | Variable | Description | Options
 | --- | --- | --- |
 | `BLOG_NAME` | the name of your blog, displayed below the avatar ||
@@ -74,10 +79,11 @@ Here are the variables you can edit:
 | `BLOG_THEME` | the theme to pass to Tailwind | default |
 | `BLOG_FONT_HEADINGS` | the font-family for all HTML headings, from `h1` to `h6`| sans-serif (default), serif, monospace|
 | `BLOG_FONT_PARAGRAPHS` | the font-family for all other HTML elements | sans-serif (default), serif, monospace|
+```
 
 All of the env variables can be configured through the [Wizard](https://nextjs-wizard.netlify.app/) or through setting the project's environment variables. You can do this in your Netlify dashaboard (Site settings/Build & deploy/Environment/Environment variables).
 
-https://user-images.githubusercontent.com/3611928/153997545-6dcdeef0-e570-49e7-93d6-ce0d393d16c9.mp4
+[https://user-images.githubusercontent.com/3611928/153997545-6dcdeef0-e570-49e7-93d6-ce0d393d16c9.mp4](https://user-images.githubusercontent.com/3611928/153997545-6dcdeef0-e570-49e7-93d6-ce0d393d16c9.mp4)
 
 [alt: video walkthrough of editing env vars]
 
@@ -92,7 +98,7 @@ All posts are stored in `/posts` directory. To make a new post, create a new fil
 
 Since the posts are written in `MDX` format you can pass props and components. That means you can use [React components](https://reactjs.org/docs/components-and-props.html) inside your posts to make them more interactive. Learn more about how to do so in the [MDX docs on content](https://mdxjs.com/docs/using-mdx/#components).
 
-https://user-images.githubusercontent.com/3611928/152727802-102ec296-41c8-446d-93ed-922d11187073.mp4
+[https://user-images.githubusercontent.com/3611928/152727802-102ec296-41c8-446d-93ed-922d11187073.mp4](https://user-images.githubusercontent.com/3611928/152727802-102ec296-41c8-446d-93ed-922d11187073.mp4)
 
 [alt: video walkthrough of adding a new blog post]
 
